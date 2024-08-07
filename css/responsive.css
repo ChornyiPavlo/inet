@@ -413,14 +413,16 @@ ul.link li {
 .logo { width: 50%; }
 .your_text { font-size: 30px; }
 .Shows_text { font-size: 30px; }
-.start_bt { width: 135px; }
-.read_bt { width: 135px; }
+.start_bt { width: 40%; }
+.start_bt a{ font-size: 14px; }
+.read_bt { width: 54%; }
+.read_bt a{ font-size: 14px; }
 .images_1 { padding-top: 30px; }
 .box_main { margin-bottom: 20px; }
 .live_text { font-size: 22px; }
 .online_bt1 a { font-size: 12px; }
 .online_bt a { font-size: 12px; }
-.read_bt1 { width: 140px; }
+.read_bt1 { width: 60%; }
 .product_section { background: #000; padding-bottom: 90px; }
 .choose_text { font-size: 32px; }
 .see_more { margin-bottom: 30px; }  
@@ -433,7 +435,6 @@ ul.link li {
 .client_taital { font-size: 26px; }
 .address_text1 { width: 100%;  }
 .get_bt1 {width: 150px; margin-top: 20px; font-size: 16px;  }
-.seemore_main { width: 150px; }
 .search_icon { width: 100%; }
 .internet_icon1 {  width: 70px; }
 .internet_icon2 { width: 70px; }

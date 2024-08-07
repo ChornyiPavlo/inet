@@ -238,7 +238,7 @@ button {
 }
 .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .btn:not(:disabled):not(.disabled) {
