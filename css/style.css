@@ -355,7 +355,7 @@ button {
 }
 
 .read_bt{
-    width: 30%;
+    width: 40%;
     float: left;
     margin-left: 20px;
 }
@@ -410,6 +410,7 @@ button {
     width: 100%;
     float: left;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .box_main{
     width: 100%;
@@ -481,6 +482,7 @@ button {
     color: #ffffff;
     text-align: center;
     margin-left: 0px;
+    min-height: 192px;
 }
 .about_section{
     width: 100%;
@@ -553,7 +555,7 @@ button {
     background-color: #d72a18;
 }
 .read_bt1 {
-    width: 30%;
+    width: 40%;
     float: left;
     margin-top: 50px;
 }
@@ -658,9 +660,10 @@ button {
     margin: 0 auto;
     font-size: 16px;
     text-align: center;
+    min-height: 282px;
 }
 .seemore_main {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
     margin-top: 30px;
@@ -698,11 +701,15 @@ button {
 .contact_section2 {
     width: 100%;
     float: left;
-    background-image: url(../images/map-bg.png);
     height: auto;
     background-size: 100%;
     border-bottom: 1px solid #000;
     padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+.form-contact {
+  width: 60%;
 }
 .addres_main {
     width: 100%;
@@ -710,7 +717,6 @@ button {
     background-image: url(../images/input-bg.png);
     height: 448px;
     background-size: 100%;
-    margin-top: 80px;
 }
 .input_bg {
     width: 60%;
@@ -753,6 +759,21 @@ button {
     top: -56px;
     right: 5px;
 }
+.sub_bt {
+  width: 100%;
+  color: #ffffff;
+  background-color: #000;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 0px;
+  height: 60px;
+  margin-top: 40px;
+}
+.sub_bt:hover{
+  color: #ffffff;
+  background-color: #d72a18;
+}
+
 .client_section {
     width: 100%;
     float: left;
@@ -907,9 +928,21 @@ button {
     color: #ef5051;
 }
 
+.navbar-expand-lg .navbar-collapse {
+  justify-content: right;
+}
 
-
-
+.error_message {
+  color: red;
+  height: 0;
+  text-align: center;
+}
+.success_message {
+  height: 0;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
 
 
 
